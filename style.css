@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;    
+}
+
+#container{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    row-gap: 1rem;
+    /* border: 6px solid black; */
+    margin:50px;
+    padding:10px;
+}
+#para{
+    border: 2px solid rgb(87, 89, 90);
+    padding:10px;    
+}
+
+#mainPara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paragraph{
+    border: 2px solid rgb(87, 89, 90);
+    padding:20px;
+}
+
